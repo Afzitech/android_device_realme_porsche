@@ -1,0 +1,1 @@
+libAPSClient-cmd-jni.so

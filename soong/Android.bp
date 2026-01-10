@@ -1,0 +1,12 @@
+soong_config_module_type {
+    name: "oplus_camera_hal_defaults",
+    module_type: "cc_defaults",
+    config_namespace: "camera",
+    variables: ["override_format_from_reserved"],
+    properties: ["cflags"],
+}
+
+soong_config_string_variable {
+    name: "override_format_from_reserved",
+    values: ["true", "false"],
+}
